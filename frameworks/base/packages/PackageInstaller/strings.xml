@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="install_details_heading">СВЕДЕНИЯ УСТАНОВКИ</string>
+    <string name="installed_app_details_heading">УСТАНОВЛЕННОЕ ПРИЛОЖЕНИЕ</string>
+    <string name="install_details_size">Размер пакета</string>
+    <string name="installed_details_size">Размер после установки</string>
+    <string name="install_size_unavailable">Недоступно</string>
+    <string name="install_details_version">Версия</string>
+    <string name="install_target_sdk">Целевой SDK: %1$s</string>
+    <!-- [CHAR LIMIT=25] -->
+    <string name="app_name">Установщик пакетов</string>
+
+    <!-- [CHAR LIMIT=15] -->
+    <string name="install">Установить</string>
+    <!-- [CHAR LIMIT=15] -->
+    <string name="update">Обновить</string>
+    <!-- [CHAR LIMIT=15] -->
+    <string name="done">Готово</string>
+    <!-- [CHAR LIMIT=15] -->
+    <string name="cancel">Отмена</string>
+    <!-- [CHAR LIMIT=15] -->
+    <string name="more_details">Подробнее</string>
+    <!-- [CHAR LIMIT=15] -->
+    <string name="dont_install">Не устанавливать</string>
+    <!-- [CHAR LIMIT=50] -->
+    <string name="installing">Установка\u2026</string>
+    <!-- [CHAR LIMIT=50] -->
+    <string name="installing_app">Установка приложения <xliff:g id="package_label">%1$s</xliff:g>\u2026</string>
+    <!-- [CHAR LIMIT=100] -->
+    <string name="install_done">Приложение установлено.</string>
+    <!-- Message for installing a new app that requires some permissions [CHAR LIMIT=NONE] -->
+    <!-- Message for installing a new app that does not require permissions [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question">Хотите установить это приложение?</string>
+    <!-- Message for updating an existing app [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question_update">Хотите обновить это приложение?</string>
+    <!-- Message for updating an existing app with update owner reminder [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question_update_owner_reminder" product="tablet">&lt;p>Обновить это приложение из источника &lt;b><xliff:g id="new_update_owner">%1$s</xliff:g>&lt;/b>\?&lt;/p>&lt;p>Обычно это приложение получает обновления от &lt;b><xliff:g id="existing_update_owner">%2$s</xliff:g>&lt;/b>. При обновлении из другого источника будущие обновления могут поступать с любого источника на вашем планшете. Функциональность приложения может измениться.&lt;/p></string>
+    <!-- Message for updating an existing app with update owner reminder [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question_update_owner_reminder" product="tv">&lt;p>Обновить это приложение из источника &lt;b><xliff:g id="new_update_owner">%1$s</xliff:g>&lt;/b>\?&lt;/p>&lt;p>Обычно это приложение получает обновления от &lt;b><xliff:g id="existing_update_owner">%2$s</xliff:g>&lt;/b>. При обновлении из другого источника будущие обновления могут поступать с любого источника на вашем телевизоре. Функциональность приложения может измениться.&lt;/p></string>
+    <!-- Message for updating an existing app with update owner reminder [CHAR LIMIT=NONE] -->
+    <string name="install_confirm_question_update_owner_reminder" product="default">&lt;p>Обновить это приложение из источника &lt;b><xliff:g id="new_update_owner">%1$s</xliff:g>&lt;/b>\?&lt;/p>&lt;p>Обычно это приложение получает обновления от &lt;b><xliff:g id="existing_update_owner">%2$s</xliff:g>&lt;/b>. При обновлении из другого источника будущие обновления могут поступать с любого источника на вашем телефоне. Функциональность приложения может измениться.&lt;/p></string>
+    <!-- [CHAR LIMIT=100] -->
+    <string name="install_failed">Приложение не установлено.</string>
+    <!-- Reason displayed when installation fails because the package was blocked
+        from being installed (e.g., device policy, verification, ...) [CHAR LIMIT=100] -->
+    <string name="install_failed_blocked">Установка этого пакета заблокирована.</string>
+    <!-- Reason displayed when installation fails because the package conflicts with
+        an existing application (e.g., incompatible certificates) [CHAR LIMIT=100] -->
+    <string name="install_failed_conflict">Приложение не установлено, так как пакет конфликтует с существующим.</string>
+    <!-- Reason displayed when installation fails because the package is incompatible with
+       the current tablet (e.g., missing native code for the current ABI, newer SDK, ...) [CHAR LIMIT=100] -->
+    <string name="install_failed_incompatible" product="tablet">Приложение не установлено, так как оно несовместимо с вашим планшетом.</string>
+    <!-- Reason displayed when installation fails because the package is incompatible with
+       the current TV (e.g., missing native code for the current ABI, newer SDK, ...) [CHAR LIMIT=100] -->
+    <string name="install_failed_incompatible" product="tv">Это приложение несовместимо с вашим телевизором.</string>
+    <!-- Reason displayed when installation fails because the package is incompatible with
+       the current phone (e.g., missing native code for the current ABI, newer SDK, ...) [CHAR LIMIT=100] -->
+    <string name="install_failed_incompatible" product="default">Приложение не установлено, так как оно несовместимо с вашим телефоном.</string>
+    <!-- Reason displayed when installation fails because the installation package itself is invalid
+        in some way (e.g., corrupt) [CHAR LIMIT=100] -->
+    <string name="install_failed_invalid_apk">Приложение не установлено: пакет поврежден или недействителен.</string>
+    <!-- Message presented when an application could not be installed on the tablet for some reason. [CHAR LIMIT=100] -->
+    <string name="install_failed_msg" product="tablet">Не удалось установить приложение <xliff:g id="app_name">%1$s</xliff:g> на планшет.</string>
+    <!-- Message presented when an application could not be installed on the TV for some reason. [CHAR LIMIT=100] -->
+    <string name="install_failed_msg" product="tv">Не удалось установить приложение <xliff:g id="app_name">%1$s</xliff:g> на телевизор.</string>
+    <!-- Message presented when an application could not be installed on the phone for some reason. [CHAR LIMIT=100] -->
+    <string name="install_failed_msg" product="default">Не удалось установить приложение <xliff:g id="app_name">%1$s</xliff:g> на телефон.</string>
+    <string name="launch">Открыть</string>
+
+    <!-- Message presented in a dialog box when the device administrator restricts the installation of apps from unknown sources. [CHAR LIMIT=none] -->
+    <string name="unknown_apps_admin_dlg_text">Администратор запретил устанавливать приложения из неизвестных источников.</string>
+    <!-- Message presented in a dialog box when the user restriction set by the system restricts the installation of apps from unknown sources. [CHAR LIMIT=none] -->
+    <string name="unknown_apps_user_restriction_dlg_text">Этот пользователь не может устанавливать приложения из неизвестных источников.</string>
+    <!-- Message presented in a dialog box when the user restriction set by the system restricts the installation of apps. [CHAR LIMIT=none] -->
+    <string name="install_apps_user_restriction_dlg_text">Этому пользователю запрещено устанавливать приложения.</string>
+
+    <!-- [CHAR LIMIT=15] -->
+    <string name="ok">OK</string>
+    <!-- Confirmation text label for button to archive an application. Archiving means uninstalling the app without deleting user's personal data and replacing the app with a stub app with minimum size. So, the user can unarchive the app later and not lose any personal data. -->
+    <string name="archive">Архивировать</string>
+    <!-- [CHAR LIMIT=30] -->
+    <string name="update_anyway">Все равно обновить</string>
+    <!-- [CHAR LIMIT=15] -->
+    <string name="manage_applications">Управление приложениями</string>
+    <!-- [CHAR LIMIT=30] -->
+    <string name="out_of_space_dlg_title">Недостаточно памяти</string>
+    <!-- [CHAR LIMIT=none] -->
+    <string name="out_of_space_dlg_text">Не удалось установить приложение <xliff:g id="app_name">%1$s</xliff:g>. Освободите место и повторите попытку.</string>
+    <!-- strings related to uninstall activity -->
+    <!--  [CHAR LIMIT=30] -->
+    <string name="app_not_found_dlg_title">Приложение не найдено</string>
+    <!--  [CHAR LIMIT=none] -->
+    <string name="app_not_found_dlg_text">Приложение не найдено в списке установленных.</string>
+    <!--  [CHAR LIMIT=30] -->
+    <string name="user_is_not_allowed_dlg_title">Действие запрещено</string>
+    <!--  [CHAR LIMIT=none] -->
+    <string name="user_is_not_allowed_dlg_text">Текущему пользователю запрещено выполнять удаление.</string>
+    <!--  [CHAR LIMIT=30] -->
+    <string name="generic_error_dlg_title">Ошибка</string>
+    <!--  [CHAR LIMIT=none] -->
+    <string name="generic_error_dlg_text">Не удалось удалить приложение.</string>
+    <!--  [CHAR LIMIT=30] -->
+    <string name="uninstall_application_title">Удаление приложения</string>
+    <!--  [CHAR LIMIT=30] -->
+    <string name="uninstall_update_title">Удалить обновление</string>
+    <!--  [CHAR LIMIT=none] -->
+    <string name="uninstall_activity_text">Приложение <xliff:g id="activity_name">%1$s</xliff:g> входит в состав следующего приложения:</string>
+    <!--  [CHAR LIMIT=none] -->
+    <string name="uninstall_application_text">Хотите удалить это приложение?</string>
+    <!--  [CHAR LIMIT=none] -->
+    <string name="archive_application_text">Ваши личные данные будут сохранены.</string>
+    <!--  [CHAR LIMIT=none] -->
+    <string name="archive_application_text_all_users">Архивировать это приложение для всех пользователей? Ваши личные данные будут сохранены.</string>
+    <!--  [CHAR LIMIT=none] -->
+    <string name="archive_application_text_current_user_work_profile">Архивировать это приложение в рабочем профиле? Ваши личные данные будут сохранены.</string>
+    <!--  [CHAR LIMIT=none] -->
+    <string name="archive_application_text_user">Архивировать это приложение для пользователя <xliff:g id="username">%1$s</xliff:g>? Ваши личные данные будут сохранены.</string>
+    <!--  [CHAR LIMIT=none] -->
+    <string name="archive_application_text_current_user_private_profile">Архивировать это приложение из личного пространства? Ваши личные данные будут сохранены.</string>
+    <!--  [CHAR LIMIT=none] -->
+    <string name="uninstall_application_text_all_users">Хотите удалить это приложение для <b>всех</b> пользователей? Приложение и его данные будут удалены у <b>всех</b> пользователей устройства.</string>
+    <!--  [CHAR LIMIT=none] -->
+    <string name="uninstall_application_text_user">Хотите удалить это приложение для пользователя <xliff:g id="username">%1$s</xliff:g>?</string>
+    <!--  [CHAR LIMIT=none] -->
+    <string name="uninstall_application_text_current_user_work_profile">Хотите удалить это приложение из рабочего профиля?</string>
+    <!--  [CHAR LIMIT=none] -->
+    <string name="uninstall_update_text">Заменить это приложение заводской версией? Все данные будут удалены.</string>
+    <!--  [CHAR LIMIT=none] -->
+    <string name="uninstall_update_text_multiuser">Заменить это приложение заводской версией? Все данные будут удалены. Это затронет всех пользователей устройства, включая рабочие профили.</string>
+    <!-- Label of a checkbox that allows to keep the data (e.g. files, settings) of the app on uninstall [CHAR LIMIT=none] -->
+    <string name="uninstall_keep_data">Сохранить данные приложения (<xliff:g id="size" example="1.5MB">%1$s</xliff:g>).</string>
+    <!--  [CHAR LIMIT=none] -->
+    <string name="uninstall_application_text_current_user_clone_profile">Хотите удалить это приложение?</string>
+    <!--  [CHAR LIMIT=none] -->
+    <string name="uninstall_application_text_with_clone_instance">Хотите удалить это приложение? Клон <xliff:g id="package_label">%1$s</xliff:g> также будет удален.</string>
+    <!--  [CHAR LIMIT=none] -->
+    <string name="uninstall_application_text_current_user_private_profile">Хотите удалить это приложение из личного пространства?</string>
+
+    <!-- Label for the notification channel containing notifications for current uninstall operations [CHAR LIMIT=40] -->
+    <string name="uninstalling_notification_channel">Удаление приложений</string>
+    <!-- Label for the notification channel containing notifications for failed uninstall operations [CHAR LIMIT=40] -->
+    <string name="uninstall_failure_notification_channel">Ошибки удаления</string>
+
+    <!-- [CHAR LIMIT=50] -->
+    <string name="uninstalling">Удаление\u2026</string>
+    <!-- [CHAR LIMIT=50] -->
+    <string name="uninstalling_app">Удаление приложения <xliff:g id="package_label">%1$s</xliff:g>\u2026</string>
+    <!-- [CHAR LIMIT=100] -->
+    <string name="uninstall_done">Удаление завершено.</string>
+    <!-- [CHAR LIMIT=100] -->
+    <string name="uninstall_done_app">Приложение <xliff:g id="package_label">%1$s</xliff:g> удалено.</string>
+    <!-- [CHAR LIMIT=100] -->
+    <string name="uninstall_done_clone_app">Клон <xliff:g id="package_label">%1$s</xliff:g> удален.</string>
+    <!-- [CHAR LIMIT=100] -->
+    <string name="uninstall_failed">Не удалось удалить.</string>
+    <!-- [CHAR LIMIT=100] -->
+    <string name="uninstall_failed_app">Не удалось удалить приложение <xliff:g id="package_label">%1$s</xliff:g>.</string>
+    <!-- [CHAR LIMIT=100] -->
+    <string name="uninstalling_cloned_app">Удаление клона <xliff:g id="package_label">%1$s</xliff:g>\u2026</string>
+    <!-- String presented to the user when uninstalling a package failed because the target package
+        is a current device administrator [CHAR LIMIT=80] -->
+    <string name="uninstall_failed_device_policy_manager">Нельзя удалить приложение активного администратора устройства.</string>
+    <!-- String presented to the user when uninstalling a package failed because the target package
+        is a current device administrator for some user [CHAR LIMIT=100] -->
+    <string name="uninstall_failed_device_policy_manager_of_user">Нельзя удалить приложение активного администратора устройства для пользователя <xliff:g id="username">%1$s</xliff:g>.</string>
+    <!-- String presented to the admin user when uninstalling a package for all users failed
+    because a profile owner has marked the target package as not able to be uninstalled
+    [CHAR LIMIT=120] -->
+    <string name="uninstall_all_blocked_profile_owner">Это приложение требуется для некоторых пользователей или профилей и было удалено только у остальных.</string>
+    <!-- String presented to the user when uninstalling a package failed because a profile owner
+         has marked the target package as not able to be uninstalled [CHAR LIMIT=120] -->
+    <string name="uninstall_blocked_profile_owner">Это приложение необходимо для вашего профиля, его нельзя удалить.</string>
+    <!-- String presented to the user when uninstalling a package failed because a device owner
+         has marked the the target package as not able to be uninstalled [CHAR LIMIT=80] -->
+    <string name="uninstall_blocked_device_owner">Это приложение требуется администратору устройства, его нельзя удалить.</string>
+    <!-- String on a button that leads to the "device admin apps" configuration setting where a
+        user will be able to disable the device admin app in order to uninstall
+        it. [CHAR LIMIT=50] -->
+    <string name="manage_device_administrators">Администраторы устройства</string>
+    <!-- String on a button that leads to the "Users" page in Settings where a
+        user will be able to remove the secondary user(s) in order to uninstall
+        the app. [CHAR LIMIT=50] -->
+    <string name="manage_users">Управление пользователями</string>
+    <!-- [CHAR LIMIT=none] -->
+    <string name="uninstall_failed_msg">Не удалось удалить приложение <xliff:g id="app_name">%1$s</xliff:g>.</string>
+
+    <!-- Dialog attributes to indicate parse errors -->
+    <string name="Parse_error_dlg_text">При разборе пакета произошла ошибка.</string>
+
+    <!-- Message that the app to be installed is being staged [CHAR LIMIT=50] -->
+    <string name="message_staging">Подготовка приложения&#8230;</string>
+
+    <!-- Placeholder for an app name when it is unknown [CHAR LIMIT=50] -->
+    <string name="app_name_unknown">Неизвестно</string>
+
+    <!-- Text to show in warning dialog on the tablet when the app source is not trusted [CHAR LIMIT=NONE] -->
+    <string name="untrusted_external_source_warning" product="tablet">В целях безопасности ваш планшет сейчас заблокирован для установки неизвестных приложений из этого источника. Вы можете изменить это в настройках.</string>
+
+    <!-- Text to show in warning dialog on the tv when the app source is not trusted [CHAR LIMIT=NONE] -->
+    <string name="untrusted_external_source_warning" product="tv">В целях безопасности ваш телевизор сейчас заблокирован для установки неизвестных приложений из этого источника. Вы можете изменить это в настройках.</string>
+
+    <!-- Text to show in warning dialog on the wear when the app source is not trusted [CHAR LIMIT=NONE] -->
+    <string name="untrusted_external_source_warning" product="watch">В целях безопасности ваши часы сейчас заблокированы для установки неизвестных приложений из этого источника. Вы можете изменить это в настройках.</string>
+
+    <!-- Text to show in warning dialog on the phone when the app source is not trusted [CHAR LIMIT=NONE] -->
+    <string name="untrusted_external_source_warning" product="default">В целях безопасности ваш телефон сейчас заблокирован для установки неизвестных приложений из этого источника. Вы можете изменить это в настройках.</string>
+
+    <!-- Text to show in warning dialog on the phone when the app source cannot be identified [CHAR LIMIT=NONE] -->
+    <string name="anonymous_source_warning" product="default">
+        Ваш телефон и личные данные более уязвимы
+        для атак со стороны неизвестных приложений. Устанавливая это приложение, вы
+        соглашаетесь с тем, что сами несете ответственность за любой ущерб
+        телефону или потерю данных, вызванные его использованием.
+    </string>
+
+    <!-- Text to show in warning dialog on the tablet when the app source cannot be identified [CHAR LIMIT=NONE] -->
+    <string name="anonymous_source_warning" product="tablet">
+        Ваш планшет и личные данные более уязвимы
+        для атак со стороны неизвестных приложений. Устанавливая это приложение, вы
+        соглашаетесь с тем, что сами несете ответственность за любой ущерб
+        планшету или потерю данных, вызванные его использованием.
+    </string>
+
+    <!-- Text to show in warning dialog on the tv when the app source cannot be identified [CHAR LIMIT=NONE] -->
+    <string name="anonymous_source_warning" product="tv">
+        Ваш телевизор и личные данные более уязвимы
+        для атак со стороны неизвестных приложений. Устанавливая это приложение, вы
+        соглашаетесь с тем, что сами несете ответственность за любой ущерб
+        телевизору или потерю данных, вызванные его использованием.
+    </string>
+
+    <!-- Label for cloned app in uninstall dialogue [CHAR LIMIT=40] -->
+    <string name="cloned_app_label">Клон <xliff:g id="package_label">%1$s</xliff:g></string>
+    <!-- Label for archiving an app in uninstall dialogue -->
+    <string name="archiving_app_label">Архивировать приложение <xliff:g id="package_label">%1$s</xliff:g>?</string>
+
+    <!-- Label for button to continue install of an app whose source cannot be identified [CHAR LIMIT=40] -->
+    <string name="anonymous_source_continue">Продолжить</string>
+
+    <!-- Label for button to open manage external sources settings [CHAR LIMIT=45] -->
+    <string name="external_sources_settings">Настройки</string>
+
+    <!-- Label for the notification channel containing notifications for embedded app operations [CHAR LIMIT=40] -->
+    <string name="wear_app_channel">Установка и удаление приложений Wear</string>
+
+    <!-- Description for the app installer notification channel [CHAR LIMIT=40] -->
+    <string name="app_installed_notification_channel_description">Уведомление об установке приложения</string>
+
+    <!-- Notification message shown in status bar when an application is successfully installed.
+         [CHAR LIMIT=30] -->
+    <string name="notification_installation_success_message">Успешно установлено</string>
+
+    <!-- Notification shown in status bar when an application is successfully installed.
+         [CHAR LIMIT=50] -->
+    <string name="notification_installation_success_status">Успешно установлено: \u201c<xliff:g id="appname" example="Package Installer">%1$s</xliff:g>\u201d</string>
+
+    <!-- The title of a dialog which asks the user to restore (i.e. re-install, re-download) an app
+         after parts of the app have been previously moved into the cloud for temporary storage.
+         "installername" is the app that will facilitate the download of the app. [CHAR LIMIT=50] -->
+    <string name="unarchive_application_title">Восстановить приложение <xliff:g id="appname" example="Bird Game">%1$s</xliff:g> из источника <xliff:g id="installername" example="App Store">%2$s</xliff:g>?</string>
+    <!-- After the user confirms the dialog, a download will start. [CHAR LIMIT=none] -->
+    <string name="unarchive_body_text">Загрузка приложения начнется в фоновом режиме</string>
+    <!-- The action to restore (i.e. re-install, re-download) an app after parts of the app have been previously moved
+         into the cloud for temporary storage. [CHAR LIMIT=15] -->
+    <string name="restore">Восстановить</string>
+
+    <!-- Dialog title shown when the user is trying to restore an app but the associated download
+         cannot happen immediately because the device is offline (has no internet connection.
+         [CHAR LIMIT=50] -->
+    <string name="unarchive_error_offline_title">Нет подключения к Интернету</string>
+
+    <!-- Dialog body test shown when the user is trying to restore an app but the associated download
+         cannot happen immediately because the device is offline (has no internet connection.
+         [CHAR LIMIT=none] -->
+    <string name="unarchive_error_offline_body">
+        Чтобы восстановить это приложение, проверьте подключение к Интернету и повторите попытку
+    </string>
+
+    <!-- Dialog title shown when the user is trying to restore an app but a generic error happened.
+         [CHAR LIMIT=50] -->
+    <string name="unarchive_error_generic_title">Что-то пошло не так</string>
+
+    <!-- Dialog body shown when the user is trying to restore an app but a generic error happened.
+         [CHAR LIMIT=none] -->
+    <string name="unarchive_error_generic_body">
+        При попытке восстановить это приложение произошла ошибка
+    </string>
+
+    <!-- Dialog title shown when the user is trying to restore an app but the device is out of
+         storage. [CHAR LIMIT=50] -->
+    <string name="unarchive_error_storage_title">Недостаточно памяти</string>
+
+    <!-- Dialog body shown when the user is trying to restore an app but the device is out of
+         storage. [CHAR LIMIT=none] -->
+    <string name="unarchive_error_storage_body">
+        Чтобы восстановить это приложение, освободите место на устройстве.
+        Требуется памяти: <xliff:g id="bytes" example="100 MB">%1$s</xliff:g>
+    </string>
+
+    <!-- Dialog title shown when the user is trying to restore an app but the installer needs to
+         perform an additional action. [CHAR LIMIT=50] -->
+    <string name="unarchive_action_required_title">Требуются действия</string>
+
+    <!-- Dialog body shown when the user is trying to restore an app but the installer needs to
+         perform an additional action. [CHAR LIMIT=none] -->
+    <string name="unarchive_action_required_body">
+        Выполните следующие шаги для восстановления приложения
+    </string>
+    <!-- Dialog title shown when the user is trying to restore an app but the installer responsible
+         for the action is in a disabled state. [CHAR LIMIT=50] -->
+    <string name="unarchive_error_installer_disabled_title">
+        Приложение <xliff:g id="installername" example="App Store">%1$s</xliff:g> отключено
+    </string>
+
+    <!-- Dialog body shown when the user is trying to restore an app but the installer responsible
+         for the action is in a disabled state. [CHAR LIMIT=none] -->
+    <string name="unarchive_error_installer_disabled_body">
+        Чтобы восстановить это приложение, включите <xliff:g id="installername" example="App Store">%1$s</xliff:g> в настройках
+    </string>
+
+    <!-- Dialog title shown when the user is trying to restore an app but the installer responsible
+     for the action is uninstalled. [CHAR LIMIT=50] -->
+    <string name="unarchive_error_installer_uninstalled_title">
+        Приложение <xliff:g id="installername" example="App Store">%1$s</xliff:g> удалено
+    </string>
+
+    <!-- Dialog body shown when the user is trying to restore an app but the installer responsible
+         for the action is uninstalled. [CHAR LIMIT=none] -->
+    <string name="unarchive_error_installer_uninstalled_body">
+        Чтобы восстановить это приложение, вам нужно установить <xliff:g id="installername" example="App Store">%1$s</xliff:g>
+    </string>
+
+    <!-- Dialog action to continue with the next action. [CHAR LIMIT=30] -->
+    <string name="unarchive_action_required_continue">Продолжить</string>
+
+    <!-- Dialog action to clear device storage, as in deleting some apps or photos to free up bytes
+         [CHAR LIMIT=30] -->
+    <string name="unarchive_clear_storage_button">Очистить память</string>
+
+    <!-- Dialog action to open the Settings app. [CHAR LIMIT=30] -->
+    <string name="unarchive_settings_button">Настройки</string>
+
+    <!-- Dialog action to close a dialog. [CHAR LIMIT=30] -->
+    <string name="close">Закрыть</string>
+
+</resources>

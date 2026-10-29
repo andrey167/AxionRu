@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2023-2026 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Галерея</string>
+
+    <!-- Toast messages -->
+    <string name="app_permissions_toast">Разрешения не предоставлены пользователем[cite: 11].</string>
+
+    <!-- Titles -->
+    <string name="reels_title">Клипы</string>
+    <string name="albums_title">Альбомы</string>
+    <string name="categories_title">Категории</string>
+    <string name="library_title">Библиотека</string>
+
+    <!-- Album buckets -->
+    <string name="album_favorites">Избранное</string>
+    <string name="album_trash">Корзина</string>
+    <string name="album_reels">Клипы</string>
+    <string name="album_photos">Фотографии</string>
+    <string name="album_videos">Видео</string>
+
+    <!-- Album thumbnail -->
+    <plurals name="album_thumbnail_items">
+        <item quantity="one">%d элемент</item>
+        <item quantity="few">%d элемента</item>
+        <item quantity="many">%d элементов</item>
+        <item quantity="other">%d элементов</item>
+    </plurals>
+
+    <!-- File deletion -->
+    <plurals name="delete_file_forever_confirm_message">
+        <item quantity="one">Вы действительно хотите навсегда удалить этот файл?</item>
+        <item quantity="few">Вы действительно хотите навсегда удалить %d файла?</item>
+        <item quantity="many">Вы действительно хотите навсегда удалить %d файлов?</item>
+        <item quantity="other">Вы действительно хотите навсегда удалить %d файлов?</item>
+    </plurals>
+    <plurals name="delete_file_forever_successful">
+        <item quantity="one">Файл навсегда удален</item>
+        <item quantity="few">Навсегда удалено файлов: %d</item>
+        <item quantity="many">Навсегда удалено файлов: %d</item>
+        <item quantity="other">Навсегда удалено файлов: %d</item>
+    </plurals>
+    <plurals name="delete_file_forever_unsuccessful">
+        <item quantity="one">Не удалось навсегда удалить файл</item>
+        <item quantity="few">Не удалось навсегда удалить файлов: %d</item>
+        <item quantity="many">Не удалось навсегда удалить файлов: %d</item>
+        <item quantity="other">Не удалось навсегда удалить файлов: %d</item>
+    </plurals>
+
+    <!-- File trashing -->
+    <plurals name="move_file_to_trash_confirm_message">
+        <item quantity="one">Вы действительно хотите переместить один файл в корзину?</item>
+        <item quantity="few">Вы действительно хотите переместить файлы (%d) в корзину?</item>
+        <item quantity="many">Вы действительно хотите переместить файлы (%d) в корзину?</item>
+        <item quantity="other">Вы действительно хотите переместить файлы (%d) в корзину?</item>
+    </plurals>
+    <plurals name="move_file_to_trash_successful">
+        <item quantity="one">Файл перемещен в корзину</item>
+        <item quantity="few">Перемещено в корзину файлов: %d</item>
+        <item quantity="many">Перемещено в корзину файлов: %d</item>
+        <item quantity="other">Перемещено в корзину файлов: %d</item>
+    </plurals>
+    <plurals name="move_file_to_trash_unsuccessful">
+        <item quantity="one">Не удалось переместить файл в корзину</item>
+        <item quantity="few">Не удалось переместить в корзину файлов: %d</item>
+        <item quantity="many">Не удалось переместить в корзину файлов: %d</item>
+        <item quantity="other">Не удалось переместить в корзину файлов: %d</item>
+    </plurals>
+
+    <!-- File restoring from trash -->
+    <plurals name="restore_file_from_trash_confirm_message">
+        <item quantity="one">Вы действительно хотите восстановить один файл из корзины?</item>
+        <item quantity="few">Вы действительно хотите восстановить файлы (%d) из корзины?</item>
+        <item quantity="many">Вы действительно хотите восстановить файлы (%d) из корзины?</item>
+        <item quantity="other">Вы действительно хотите восстановить файлы (%d) из корзины?</item>
+    </plurals>
+    <plurals name="restore_file_from_trash_successful">
+        <item quantity="one">Файл восстановлен из корзины</item>
+        <item quantity="few">Восстановлено из корзины файлов: %d</item>
+        <item quantity="many">Восстановлено из корзины файлов: %d</item>
+        <item quantity="other">Восстановлено из корзины файлов: %d</item>
+    </plurals>
+    <plurals name="restore_file_from_trash_unsuccessful">
+        <item quantity="one">Не удалось восстановить файл из корзины</item>
+        <item quantity="few">Не удалось восстановить из корзины файлов: %d</item>
+        <item quantity="many">Не удалось восстановить из корзины файлов: %d</item>
+        <item quantity="other">Не удалось восстановить из корзины файлов: %d</item>
+    </plurals>
+
+    <!-- Manage media permission -->
+    <string name="manage_media_permission_title">Разрешение на управление медиафайлами</string>
+    <string name="manage_media_permission_message">Чтобы лучше управлять вашими изображениями и видео, разрешите приложению управлять вашими медиафайлами[cite: 11]</string>
+
+    <!-- Media info bottom sheet dialog -->
+    <string name="media_info_unknown">Неизвестно</string>
+    <string name="media_info_add_description_hint">Добавить описание</string>
+    <string name="media_info_write_description_failed">Не удалось изменить описание медиафайла</string>
+    <string name="media_info_location_loading_placeholder">Загрузка…</string>
+    <string name="media_info_location_open_with">Просмотреть местоположение с помощью</string>
+
+    <!-- Intents handling -->
+    <string name="intent_action_not_supported">Действие не поддерживается</string>
+    <string name="intent_media_not_found">Медиафайл не найден</string>
+    <string name="intent_media_type_not_found">Тип медиафайла не найден</string>
+    <string name="intent_media_type_not_supported">Тип медиафайла не поддерживается</string>
+    <string name="intent_no_system_wallpaper_cropper_available">Системное средство кадрирования недоступно</string>
+    <string name="intent_wallpaper_cannot_be_changed">Не удается изменить обои</string>
+
+    <!-- File actions -->
+    <string name="file_action_add_to_favorites">Добавить в избранное</string>
+    <string name="file_action_delete_forever">Удалить навсегда</string>
+    <string name="file_action_edit">Изменить</string>
+    <string name="file_action_empty_trash">Очистить корзину</string>
+    <string name="file_action_information">Сведения</string>
+    <string name="file_action_move_to_trash">Переместить в корзину</string>
+    <string name="file_action_remove_from_favorites">Удалить из избранного</string>
+    <string name="file_action_restore_from_trash">Восстановить из корзины</string>
+    <string name="file_action_share">Поделиться</string>
+    <string name="file_action_use_as">Использовать как</string>
+
+    <!-- File actions - undo -->
+    <string name="file_action_undo_action">Отменить</string>
+
+    <!-- No media -->
+    <string name="no_media">Нет медиафайлов</string>
+
+    <!-- Selection -->
+    <plurals name="thumbnail_selection_count">
+        <item quantity="one">Выбрано: %d</item>
+        <item quantity="few">Выбрано: %d</item>
+        <item quantity="many">Выбрано: %d</item>
+        <item quantity="other">Выбрано: %d</item>
+    </plurals>
+
+    <!-- Picker -->
+    <string name="pick_a_photo">Выберите фото</string>
+    <string name="pick_a_video">Выберите видео</string>
+    <string name="pick_a_media">Выберите медиафайл</string>
+    <string name="picker_done">Готово</string>
+
+    <!-- Wallpaper -->
+    <string name="set_wallpaper_label">Обои</string>
+    <string name="set_wallpaper">Установить обои</string>
+    <string name="set_wallpaper_dialog_title">Установить обои на</string>
+    <string name="set_wallpaper_home_screen">Главный экран</string>
+    <string name="set_wallpaper_lock_screen">Экран блокировки</string>
+    <string name="set_wallpaper_both">Главный экран и экран блокировки</string>
+
+    <!-- Warnings and information -->
+    <string name="warning_bin_time_period">Файлы будут окончательно удалены через 30 дней[cite: 11].</string>
+
+    <!-- Motion Photo -->
+    <string name="motion_photo_show_video">Показать видео</string>
+    <string name="motion_photo_show_photo">Показать фото</string>
+
+    <!-- Settings title -->
+    <string name="title_activity_settings">Настройки</string>
+
+    <!-- Preference titles -->
+    <string name="general_header">Основные</string>
+    <string name="video_header">Видео</string>
+
+    <!-- General preferences -->
+    <string name="edge_tap_navigation_enable_title">Навигация касанием краев</string>
+    <string name="edge_tap_navigation_enabled_description">Нажимайте на левый или правый край экрана для переключения между медиафайлами[cite: 11]</string>
+
+    <!-- Video preferences -->
+    <string name="double_tap_to_seek_enabled_title">Включить перемотку двойным тапом</string>
+    <string name="double_tap_to_seek_enabled_description">Дважды коснитесь левой или правой стороны видео для перемотки назад или вперед[cite: 11]</string>
+    <string name="double_tap_to_seek_seconds_title">Интервал перемотки двойным тапом</string>
+    <string name="double_tap_to_seek_seconds_description">Количество секунд для пропуска при двойном тапе по видео[cite: 11]</string>
+    <string name="hide_native_seek_buttons_title">Скрыть стандартные кнопки перемотки</string>
+    <string name="hide_native_seek_buttons_description">Скрыть кнопки перемотки назад и вперед в элементах управления видеоплеера[cite: 11]</string>
+    <string name="remember_video_playback_position_enabled_title">Запоминать позицию воспроизведения</string>
+    <string name="remember_video_playback_position_enabled_description">Возобновлять воспроизведение видео с момента последней остановки[cite: 11]</string>
+</resources>

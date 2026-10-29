@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2018-2019 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Application name -->
+    <string name="lineageos_app_name" translatable="false">Pulse</string>
+
+    <!-- Settings -->
+
+    <string name="home_settings_general_title">Общие</string>
+    <string name="home_settings_search_title">Поиск</string>
+    <string name="home_settings_privacy_title">Конфиденциальность</string>
+    <string name="home_settings_general_summary">Значки, точки уведомлений и размытие лаунчера</string>
+    <string name="home_settings_home_summary">Сетка, подписи, виджеты и жесты</string>
+    <string name="home_settings_overview_summary">Действия с задачами и затемнение обзора</string>
+    <string name="home_settings_all_apps_summary">Макет, папки, поведение и внешний вид</string>
+    <string name="home_settings_search_summary">Поиск в меню приложений, поставщик дока и подсказки</string>
+    <string name="home_settings_notifications_summary">Точки уведомлений и бейджи</string>
+    <string name="home_settings_privacy_summary">Доступ к скрытым и защищенным приложениям</string>
+    <string name="home_settings_backup_title">Резервное копирование и восстановление</string>
+    <string name="home_settings_backup_summary">Экспорт или импорт макета главного экрана</string>
+    <string name="home_settings_about_title">О приложении</string>
+    <string name="home_settings_about_summary">Pulse Launcher</string>
+    <string name="home_settings_about_version_title">Версия</string>
+    <string name="home_settings_about_unknown_version">Неизвестно</string>
+    <string name="home_settings_about_github">GitHub</string>
+    <string name="home_settings_about_translate">Перевод</string>
+    <string name="home_settings_about_donate">Пожертвовать</string>
+    <string name="home_settings_about_based_on_title">На базе Launcher3</string>
+    <string name="home_settings_about_based_on_summary">AOSP Launcher3</string>
+    <string name="home_settings_about_contributors_category">Участники</string>
+    <string name="home_settings_about_contributor_rmp22" translatable="false">rmp22</string>
+    <string name="home_settings_about_role_development">Разработка</string>
+    <string name="home_settings_layout_category">Макет</string>
+    <string name="home_settings_icons_category">Значки</string>
+    <string name="icon_settings_title">Настройки значков</string>
+    <string name="icon_settings_summary">Выбор пакетов значков и источников тематических иконок</string>
+    <string name="home_settings_labels_category">Подписи</string>
+    <string name="home_settings_style_category">Стиль</string>
+    <string name="home_settings_gestures_category">Жесты</string>
+    <string name="home_settings_overview_category">Обзор</string>
+    <string name="home_settings_overview_actions_category">Действия</string>
+    <string name="home_settings_overview_appearance_category">Внешний вид</string>
+    <string name="home_settings_behavior_category">Поведение</string>
+    <string name="home_settings_notifications_category">Уведомления</string>
+    <string name="home_settings_backup_export_title">Экспорт макета</string>
+    <string name="home_settings_backup_export_summary">Сохранить текущий макет главного экрана в формате XML</string>
+    <string name="home_settings_backup_import_title">Импорт макета</string>
+    <string name="home_settings_backup_import_summary">Восстановить макет главного экрана из XML</string>
+    <string name="home_settings_backup_export_success">Макет экспортирован</string>
+    <string name="home_settings_backup_export_failure">Не удалось экспортировать макет</string>
+    <string name="home_settings_backup_import_success">Макет импортирован</string>
+    <string name="home_settings_backup_import_failure">Не удалось импортировать макет</string>
+    <string name="home_grid_title">Сетка главного экрана</string>
+    <string name="home_grid_summary">Строки, столбцы и предпросмотр макета</string>
+    <string name="home_grid_category">Макет</string>
+    <string name="home_grid_tablet_portrait_category">Портретная</string>
+    <string name="home_grid_tablet_landscape_category">Альбомная</string>
+    <string name="home_grid_columns_title">Столбцы</string>
+    <string name="home_grid_rows_title">Строки</string>
+    <string name="home_grid_hotseat_icons_title">Значки дока</string>
+    <string name="home_icon_size_title">Размер значков</string>
+    <string name="home_label_size_title">Размер подписей</string>
+    <string name="home_wallpaper_scrolling_title">Прокрутка обоев</string>
+    <string name="pref_disable_wallpaper_zoom_title">Отключить масштабирование обоев</string>
+    <string name="pref_disable_wallpaper_zoom_summary">Предотвращать масштабирование обоев при переключении состояний</string>
+    <string name="home_top_bar_shadow_title">Тень верхней панели</string>
+    <string name="pref_launcher_blur_category">Размытие лаунчера</string>
+    <string name="pref_launcher_blur_title">Включить размытие лаунчера</string>
+    <string name="pref_launcher_blur_summary">Размывать обои под элементами лаунчера</string>
+    <string name="pref_launcher_blur_strength_title">Сила размытия</string>
+    <string name="pref_app_launch_blur_title">Размытие при запуске приложений</string>
+    <string name="pref_app_launch_blur_summary">Показывать размытие при запуске приложения и жесте возврата на главный экран</string>
+    <string name="home_widgets_rounded_title">Скругленные углы виджетов</string>
+    <string name="home_widgets_rounded_summary">Применять обрезку углов лаунчера к виджетам главного экрана</string>
+    <string name="home_widgets_overlap_title">Разрешить наложение виджетов</string>
+    <string name="home_widgets_overlap_summary">Позволять виджетам выходить за границы сетки, если это поддерживается</string>
+    <string name="home_widgets_unlimited_size_title">Убрать ограничения размера виджетов</string>
+    <string name="home_widgets_unlimited_size_summary">Разрешить виджетам занимать всю сетку главного экрана при изменении размера</string>
+    <string name="home_widgets_force_resize_title">Принудительное изменение размера виджетов</string>
+    <string name="home_widgets_force_resize_summary">Показывать элементы управления размером даже для тех виджетов, которые не заявляют поддержку изменения размера</string>
+    <string name="home_double_tap_action_title">Действие по двойному тапу</string>
+    <string name="home_double_tap_action_none">Ничего не делать</string>
+    <string name="home_double_tap_action_sleep">Сон</string>
+    <string name="home_recents_lock_button_title">Кнопка блокировки</string>
+    <string name="home_recents_lock_button_summary">Показывать действие блокировки задач в обзоре</string>
+    <string name="home_recents_freeform_button_title">Кнопка свободных окон</string>
+    <string name="home_recents_freeform_button_summary">Показывать действие свободных окон в обзоре, если поддерживается</string>
+    <string name="pref_recents_overview_scrim_opacity_title">Непрозрачность затемнения обзора</string>
+    <string name="pref_recents_overview_scrim_opacity_percent">%1$d%%</string>
+    <string name="home_settings_search_bar_category">Поиск в доке</string>
+    <string name="dock_search_bar_title">Поставщик поиска в доке</string>
+    <string name="dock_search_bar_summary">Выбрать поисковый виджет для дока</string>
+    <string name="dock_search_bar_disabled">Нет</string>
+    <string name="dock_search_provider_settings_title">Настройки поставщика</string>
+    <string name="dock_search_provider_settings_summary">Настроить выбранный виджет поиска в доке</string>
+
+    <!-- Edit workspace -->
+    <string name="settings_lock_layout_title">Заблокировать макет</string>
+    <string name="settings_lock_layout_summary_on">Значки и виджеты нельзя добавлять, удалять и перемещать на главном экране</string>
+    <string name="settings_lock_layout_summary_off">Значки и виджеты можно добавлять, удалять и перемещать на главном экране</string>
+    <string name="settings_edit_widgets_error">Невозможно добавить виджеты на главный экран</string>
+
+    <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
+    <string name="title_show_google_app">Показывать приложение Google</string>
+    <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_left">При свайпе вправо с главного экрана</string>
+    <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_right">При свайпе влево с главного экрана</string>
+
+    <!-- Folder titles -->
+    <string name="google_folder_title" translatable="false">Google</string>
+
+    <!-- All apps themed icons -->
+    <string name="pref_themed_icons_title">Тематические значки в меню</string>
+    <string name="pref_themed_icons_summary">Использовать те же тематические значки, что и на главном экране</string>
+
+    <!-- Hide labels -->
+    <string name="desktop_show_labels">Показывать подписи значков на рабочем столе</string>
+    <string name="drawer_show_labels">Показывать подписи значков в меню</string>
+    <string name="all_apps_drawer_settings_title">Меню всех приложений</string>
+    <string name="all_apps_drawer_settings_summary">Макет, папки, подписи, значки и прозрачность фона</string>
+    <string name="all_apps_drawer_behavior_category">Поведение</string>
+    <string name="all_apps_drawer_layout_category">Макет</string>
+    <string name="drawer_layout_default_title">Стандартное меню</string>
+    <string name="drawer_layout_default_summary">Показывать приложения в стандартной сетке А–Я</string>
+    <string name="drawer_layout_smart_title">Умное меню</string>
+    <string name="drawer_layout_smart_summary">Группировать приложения в большие карточки категорий и рекомендаций</string>
+    <string name="smart_drawer_folders_title">Папки умного меню</string>
+    <string name="smart_drawer_folders_summary">Создавать пользовательские карточки умного меню и выбирать приложения</string>
+    <string name="smart_drawer_category_games">Игры</string>
+    <string name="smart_drawer_category_social">Соцсети</string>
+    <string name="smart_drawer_category_media">Медиа</string>
+    <string name="smart_drawer_category_news">Новости</string>
+    <string name="smart_drawer_category_travel">Карты и путешествия</string>
+    <string name="smart_drawer_category_productivity">Продуктивность</string>
+    <string name="smart_drawer_category_other">Другие приложения</string>
+    <string name="smart_drawer_back_to_categories">Назад к умному меню</string>
+    <string name="all_apps_drawer_appearance_category">Внешний вид</string>
+    <string name="pin_to_drawer">Закрепить в меню</string>
+    <string name="unpin_from_drawer">Открепить из меню</string>
+    <string name="title_pinned_apps">Закрепленные приложения</string>
+    <string name="all_apps_folders_title">Папки</string>
+    <string name="all_apps_folders_summary">Создание, изменение порядка и управление папками в меню приложений</string>
+    <string name="all_apps_add_folder_title">Добавить папку</string>
+    <string name="all_apps_add_folder_summary">Создать папку и выбрать приложения</string>
+    <string name="all_apps_new_folder">Новая папка</string>
+    <string name="all_apps_default_folder_name">Моя папка</string>
+    <string name="all_apps_create_folder">Создать</string>
+    <string name="all_apps_save_folder">Сохранить</string>
+    <string name="all_apps_folder_name_hint">Имя папки</string>
+    <string name="all_apps_delete_folder">Удалить папку</string>
+    <string name="all_apps_delete_folder_message">Удалить эту папку и вернуть ее приложения в меню?</string>
+    <string name="all_apps_move_folder_up">Переместить выше</string>
+    <string name="all_apps_move_folder_down">Переместить ниже</string>
+    <string name="all_apps_folder_active_apps">Приложения в папке</string>
+    <string name="all_apps_folder_other_apps">Другие приложения</string>
+    <string name="all_apps_folder_no_apps">Приложения не выбраны</string>
+    <string name="all_apps_folder_in_this_folder">В этой папке</string>
+    <string name="all_apps_folder_assigned_to">В %1$s</string>
+    <plurals name="all_apps_folder_app_count">
+        <item quantity="one">%d приложение</item>
+        <item quantity="few">%d приложения</item>
+        <item quantity="many">%d приложений</item>
+        <item quantity="other">%d приложения</item>
+    </plurals>
+    <string name="search_action_web_title">Искать в интернете</string>
+    <string name="search_action_store_title">Искать в магазине приложений</string>
+    <string name="search_section_app_actions">Действия приложений</string>
+    <string name="search_section_quick_answers">Быстрые ответы</string>
+    <string name="search_section_settings">Настройки</string>
+    <string name="search_section_contacts">Контакты</string>
+    <string name="search_section_images">Изображения</string>
+    <string name="search_section_files">Файлы</string>
+    <string name="search_section_calendar">Календарь</string>
+    <string name="search_section_web">Веб-поиск</string>
+    <string name="search_section_in_apps">Поиск в приложениях</string>
+    <string name="search_section_youtube">YouTube</string>
+    <string name="search_section_spotify">Spotify</string>
+    <string name="search_section_youtube_music">YouTube Music</string>
+    <string name="search_section_media">Поиск медиа</string>
+    <string name="search_results_settings_title">Результаты поиска</string>
+    <string name="search_results_settings_summary">Выберите, что отображается при поиске в меню приложений</string>
+    <string name="search_results_apps_title">Приложения</string>
+    <string name="search_results_apps_summary">Установленные приложения, соответствующие запросу</string>
+    <string name="search_results_app_actions_title">Действия приложений</string>
+    <string name="search_results_app_actions_summary">Ярлыки из подходящих приложений</string>
+    <string name="search_results_quick_answers_summary">Ответы калькулятора для простых вычислений</string>
+    <string name="search_results_quick_answers_title">Быстрые ответы</string>
+    <string name="search_results_settings_type_title">Настройки</string>
+    <string name="search_results_settings_type_summary">Соответствующие настройки Android</string>
+    <string name="search_results_contacts_title">Контакты</string>
+    <string name="search_results_contacts_summary">Подходящие контакты при предоставлении доступа</string>
+    <string name="search_results_images_title">Изображения</string>
+    <string name="search_results_images_summary">Подходящие медиафайлы изображений при предоставлении доступа к хранилищу</string>
+    <string name="search_results_files_title">Файлы</string>
+    <string name="search_results_files_summary">Подходящие локальные файлы при предоставлении доступа к хранилищу</string>
+    <string name="search_results_calendar_title">Календарь</string>
+    <string name="search_results_calendar_summary">Предстоящие события, соответствующие запросу, при предоставлении доступа</string>
+    <string name="search_results_web_title">Веб-подсказки</string>
+    <string name="search_results_web_summary">Подсказки поиска Google, браузера и магазина</string>
+    <string name="search_results_in_apps_title">Поиск внутри приложений</string>
+    <string name="search_results_in_apps_summary">Поиск в приложениях, поддерживающих поисковые запросы</string>
+    <string name="search_results_media_title">Поиск медиа</string>
+    <string name="search_results_media_summary">Действия поиска в YouTube, Spotify и YouTube Music</string>
+    <string name="search_results_category_core">Основные результаты</string>
+    <string name="search_results_category_personal">Личные результаты</string>
+    <string name="search_results_category_web_media">Веб и медиа</string>
+    <string name="search_app_drawer_category">Поиск в меню приложений</string>
+    <string name="home_settings_suggestions_category">Предложения</string>
+    <string name="search_permissions_category_title">Разрешения</string>
+    <string name="search_permissions_contacts_title">Доступ к контактам</string>
+    <string name="search_permissions_contacts_summary">Разрешить вывод контактов в результатах поиска меню приложений</string>
+    <string name="search_permissions_storage_title">Доступ к хранилищу</string>
+    <string name="search_permissions_storage_summary">Разрешить вывод изображений и файлов в результатах поиска меню приложений</string>
+    <string name="search_permissions_calendar_title">Доступ к календарю</string>
+    <string name="search_permissions_calendar_summary">Разрешить вывод событий календаря в результатах поиска меню приложений</string>
+    <string name="search_results_category_behavior">Поведение</string>
+    <string name="search_results_category_limits">Лимиты результатов</string>
+    <string name="search_results_fuzzy_apps_title">Нечеткий поиск приложений</string>
+    <string name="search_results_fuzzy_apps_summary">Находить названия приложений даже при неполном или приблизительном запросе</string>
+    <string name="search_results_web_delay_title">Задержка результатов поиска</string>
+    <string name="search_history_section_title">Недавние поисковые запросы</string>
+    <string name="search_history_title">Показывать историю поиска</string>
+    <string name="search_history_summary_on">Недавние запросы появляются при нажатии на строку поиска</string>
+    <string name="search_history_summary_off">При нажатии на строку поиска список приложений сохраняется; приложения фильтруются по мере ввода</string>
+    <string name="search_history_clear_title">Очистить историю поиска</string>
+    <string name="search_history_clear_summary">Удалить сохраненные поисковые запросы из меню приложений</string>
+    <string name="search_history_clear_success">История поиска очищена</string>
+    <string name="search_results_max_apps_title">Максимум результатов приложений</string>
+    <string name="search_results_max_app_actions_title">Максимум действий приложений</string>
+    <string name="search_results_max_external_title">Максимум результатов из каждого источника</string>
+    <string name="home_settings_count_value">%1$d</string>
+    <string name="home_settings_ms_value">%1$d мс</string>
+    <string name="drawer_opacity_title">Прозрачность фона меню</string>
+    <string name="all_apps_drawer_grid_category">Сетка</string>
+    <string name="all_apps_drawer_labels_category">Подписи</string>
+    <string name="all_apps_drawer_advanced_category">Дополнительно</string>
+    <string name="drawer_columns_title">Столбцы</string>
+    <string name="drawer_row_height_title">Высота строки</string>
+    <string name="drawer_side_padding_title">Боковые отступы</string>
+    <string name="drawer_icon_size_title">Размер значков</string>
+    <string name="drawer_label_size_title">Размер подписей</string>
+    <string name="drawer_two_line_labels_title">Подписи в две строки</string>
+    <string name="drawer_two_line_labels_summary">Разрешить названиям приложений переноситься на вторую строку</string>
+    <string name="drawer_remember_position_title">Запоминать позицию в меню</string>
+    <string name="drawer_remember_position_summary">Сохранять позицию прокрутки меню приложений между открытиями</string>
+    <string name="drawer_show_scrollbar_title">Показывать быструю полосу прокрутки</string>
+    <string name="drawer_show_scrollbar_summary">Отображать алфавитную полосу прокрутки при просмотре приложений</string>
+    <string name="drawer_haptic_feedback_title">Виброотклик при открытии</string>
+    <string name="drawer_haptic_feedback_summary">Вибрация при открытии меню приложений</string>
+    <string name="drawer_predictions_title">Предложения приложений</string>
+    <string name="drawer_predictions_summary">Показывать рекомендуемые приложения в верхней части меню</string>
+    <string name="home_settings_percent_value">%1$d%%</string>
+
+    <!-- Open keyboard -->
+    <string name="drawer_open_keyboard_title">Свайп для запуска поиска</string>
+    <string name="drawer_open_keyboard_summary">Открывать клавиатуру сразу при появлении меню приложений</string>
+
+    <!-- Sleep gesture -->
+    <string name="pref_sleep_gesture_title">Двойной тап для сна</string>
+    <string name="pref_sleep_gesture_summary">Двойной тап по пустому месту на главном экране для выключения экрана</string>
+
+    <!-- Trust apps -->
+    <string name="trust_apps_manager_name">Скрытые и защищенные приложения</string>
+    <string name="trust_apps_auth_manager">Разблокируйте для управления скрытыми и защищенными приложениями</string>
+    <string name="trust_apps_auth_open_app">Пройдите аутентификацию, чтобы открыть %1$s</string>
+    <string name="trust_apps_loading">Загрузка\u2026</string>
+    <string name="trust_apps_no_lock_error">Пожалуйста, настройте безопасную блокировку экрана для ограничения доступа к приложениям</string>
+    <string name="trust_apps_help">Справка</string>
+    <string name="trust_apps_info_hidden">Скрытые приложения и их виджеты скрыты из меню</string>
+    <string name="trust_apps_info_protected">Защищенные приложения требуют прохождения аутентификации при открытии из лаунчера</string>
+
+    <!-- App suggestions -->
+    <string name="pref_suggestions_title">Предложения</string>
+    <string name="pref_suggestions_summary">Для предложений в меню приложений и на главном экране</string>
+
+    <!-- Additional shape options in customization picker -->
+    <string name="pebble_shape_title">Галька</string>
+    <string name="vessel_shape_title">Сосуд</string>
+    <string name="pure_square_shape_title">Строгий квадрат</string>
+    <string name="squircle_shape_title">Скругленный квадрат</string>
+    <string name="tapered_rect_shape_title">Сужающийся прямоугольник</string>
+    <string name="teardrop_shape_title">Капля</string>
+    <string name="rounded_rect_shape_title">Скругленный прямоугольник</string>
+    <string name="icon_pack_title">Пакет значков</string>
+    <string name="icon_pack_description">Использовать сторонний пакет значков для главного экрана и меню приложений</string>
+    <string name="icon_pack_system_default">Системный по умолчанию</string>
+    <string name="icon_pack_system_icons">Системные значки</string>
+    <string name="icon_source_title">Источник</string>
+    <string name="themed_icons_card_title">Тематические значки</string>
+    <string name="themed_icons_description">Одноцветные значки, адаптирующиеся под цветовую гамму</string>
+    <string name="themed_icon_pack_title">Пакет тематических значков</string>
+    <string name="themed_icon_source_section_title">Источник тематических значков</string>
+    <string name="themed_icon_pack_description">Использовать монохромные значки из сторонних пакетов при включении тематических иконок</string>
+    <string name="themed_icon_pack_none">Нет</string>
+    <string name="themed_icon_source_default">По умолчанию</string>
+    <string name="themed_icon_customization_title">Настройка тематических значков</string>
+    <string name="themed_icon_size_title">Размер значков</string>
+    <string name="themed_icon_size_percent">%d%%</string>
+    <string name="themed_icon_background_source_title">Источник фона</string>
+    <string name="themed_icon_foreground_source_title">Источник переднего плана</string>
+    <string name="themed_icon_color_preset_axicons" translatable="false">AxIcons</string>
+    <string name="themed_icon_color_preset_aosp" translatable="false">AOSP</string>
+    <string name="themed_icon_color_preset_custom">Пользовательский</string>
+    <string name="themed_icon_background_title">Цвет фона значка</string>
+    <string name="themed_icon_foreground_title">Цвет переднего плана значка</string>
+    <string name="custom_icon_shortcut_label">Изменить значок</string>
+    <string name="custom_icon_picker_title">Выберите пакет значков</string>
+    <string name="custom_icon_no_packs">Нет установленных пакетов значков</string>
+    <string name="custom_icon_reset">Сбросить значок</string>
+    <string name="custom_icon_back">Назад</string>
+    <string name="custom_icon_search_hint">Поиск значков</string>
+    <string name="custom_icon_no_drawables">Этот пакет значков не содержит выбираемых иконок</string>
+    <string name="custom_icon_no_search_results">Нет подходящих значков</string>
+    <string name="pref_disable_adaptive_icons_title">Отключить адаптивные значки</string>
+    <string name="pref_disable_adaptive_icons_summary">Отключить адаптивные значки. Это повлияет на форму значков и пользовательское маскирование форм.</string>
+    <string name="icon_shape_title">Форма значков</string>
+    <string name="icon_shape_system_default">Системная по умолчанию</string>
+</resources>

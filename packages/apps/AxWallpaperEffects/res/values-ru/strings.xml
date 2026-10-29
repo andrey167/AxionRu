@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="atmosphere_description">Мечтательное размытие с динамическими цветными пятнами</string>
+    <string name="glass_description">Эффект искажения ребристого стекла</string>
+    <string name="weather_description">Анимированные обои, реагирующие на погоду</string>
+    <string name="magicportrait_description">Эффект 3D-параллакса глубины</string>
+    <string name="cinematic_description">Кинематографический параллакс глубины с отслеживанием гироскопа</string>
+</resources>
