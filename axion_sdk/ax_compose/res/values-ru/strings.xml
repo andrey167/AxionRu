@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="long_press_to_reset">Нажмите и удерживайте для сброса</string>
+    <string name="ax_color_picker_title">Выбор цвета</string>
+    <string name="ax_color_picker_defaults">По умолчанию</string>
+    <string name="ax_color_picker_hue">Оттенок</string>
+    <string name="ax_color_picker_saturation">Насыщенность</string>
+    <string name="ax_color_picker_brightness">Яркость</string>
+    <string name="ax_color_picker_hex">HEX</string>
+    <string name="ax_color_picker_cancel">Отмена</string>
+    <string name="ax_color_picker_apply">Применить</string>
+</resources>

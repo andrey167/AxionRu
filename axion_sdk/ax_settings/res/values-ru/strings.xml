@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gms_enabled_title">Сервисы Google</string>
+    <string name="wellbeing_title">Цифровое благополучие</string>
+    <string name="axion_hub_title">Персонализация</string>
+    <string name="axion_themepicker_title">Обои и стиль</string>
+</resources>

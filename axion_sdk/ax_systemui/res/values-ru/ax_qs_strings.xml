@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ax_qs_panel_settings">Настройки панели</string>
+    <string name="ax_qs_reorder_education">Нажмите и удерживайте для изменения порядка</string>
+    <string name="ax_qs_top_quick_settings">Верхние быстрые настройки</string>
+    <string name="ax_qs_full_quick_settings">Полные быстрые настройки</string>
+    <string name="ax_qs_panel_mode">Макет панели</string>
+    <string name="ax_qs_controls">Виджеты</string>
+    <string name="ax_qs_widgets">Виджеты</string>
+    <string name="ax_qs_grid_full">Сетка заполнена</string>
+    <string name="ax_qs_running_services">Запущенные службы</string>
+    <string name="ax_qs_column_count">%1$d колонок</string>
+    <string name="ax_qs_grid_columns">Колонки сетки</string>
+    <string name="ax_qs_qqs_max_rows">Строк быстрых настроек</string>
+    <string name="ax_qs_row_count">%1$d строк</string>
+    <string name="ax_qs_together">Вместе</string>
+    <string name="ax_qs_together_summary">Просмотр уведомлений и свернутых быстрых настроек вместе. Смахните вниз еще раз, чтобы открыть полную панель быстрых настроек.</string>
+    <string name="ax_qs_separate">Раздельно</string>
+    <string name="ax_qs_separate_summary_left">Смахните вниз из верхнего левого угла для быстрых настроек. Смахните вниз в любом другом месте сверху для уведомлений.</string>
+    <string name="ax_qs_separate_summary_right">Смахните вниз из верхнего правого угла для быстрых настроек. Смахните вниз в любом другом месте сверху для уведомлений.</string>
+    <string name="ax_qs_quick_panel_left">Быстрая панель слева</string>
+    <string name="ax_qs_brightness_vertical">Яркость</string>
+    <string name="ax_qs_volume_vertical">Громкость</string>
+    <string name="ax_qs_auto_brightness">Автояркость</string>
+    <string name="ax_qs_volume_mute">Отключить звук</string>
+    <string name="ax_qs_media">Медиаплеер</string>
+    <string name="ax_qs_media_not_playing">Нет воспроизводимой музыки</string>
+    <string name="ax_qs_media_open_last_app">Открыть последнее медиаприложение</string>
+    <string name="ax_qs_media_compact_metadata">%1$s · %2$s</string>
+    <string name="ax_qs_tile_appearance">Дизайн плитки</string>
+    <string name="ax_qs_tile_appearance_axion">Axion Expressive</string>
+    <string name="ax_qs_tile_appearance_aosp">AOSP Классический</string>
+    <string name="ax_qs_move_earlier">Переместить раньше</string>
+    <string name="ax_qs_move_later">Переместить позже</string>
+    <string name="ax_qs_stacked_tile">Стопка плиток</string>
+    <string name="ax_qs_drag_to_stack">Перетащите сюда плитки для объединения</string>
+    <string name="ax_qs_remove_stack">Удалить стопку</string>
+    <string name="ax_qs_open_slot">Открыть слот</string>
+</resources>
