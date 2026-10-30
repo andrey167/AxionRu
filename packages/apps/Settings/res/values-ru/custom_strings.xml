@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2025, AxionOS
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifi_hotspot_advanced_title">Дополнительно</string>
+    <string name="wifi_hotspot_advanced_summary">Тайм-аут, скрытая сеть, подключенные устройства</string>
+
+    <string name="wifi_hotspot_hidden_ssid_title">Скрытая сеть</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Имя вашей точки доступа не будет отображаться в списке доступных сетей</string>
+
+    <string name="wifi_hotspot_shutdown_timeout_title">Тайм-аут отключения</string>
+    <string name="wifi_hotspot_shutdown_timeout_default">По умолчанию</string>
+    <string name="wifi_hotspot_shutdown_timeout_5min">5 минут</string>
+    <string name="wifi_hotspot_shutdown_timeout_10min">10 минут</string>
+    <string name="wifi_hotspot_shutdown_timeout_30min">30 минут</string>
+    <string name="wifi_hotspot_shutdown_timeout_1hour">1 час</string>
+
+    <string name="wifi_hotspot_connected_devices_title">Подключенные устройства</string>
+    <string name="wifi_hotspot_connected_devices_none">Нет подключенных устройств</string>
+    <string name="wifi_hotspot_connected_devices_unknown">Неизвестное устройство</string>
+    <string name="wifi_hotspot_block_client">Заблокировать</string>
+    <string name="wifi_hotspot_unblock_client">Разблокировать</string>
+    <string name="wifi_hotspot_blocked_devices_title">Заблокированные устройства</string>
+    <string name="wifi_hotspot_blocked_devices_none">Нет заблокированных устройств</string>
+
+    <string name="enable_angle_as_system_driver_summary">Внимание: в качестве системного драйвера OpenGL ES будет установлен ANGLE. Эта функция является экспериментальной и может быть несовместима с некоторыми камерами или видеоприложениями. Перед включением сделайте резервную копию важных данных.</string>
+    <string name="reboot_dialog_enable_angle_as_system_driver">Чтобы изменить системный драйвер OpenGL ES, устройство будет перезагружено. Перед перезагрузкой сделайте резервную копию важных данных. Если перезагрузка завершится сбоем, для использования устройства потребуется сброс к заводским настройкам.</string>
+
+    <!-- Label for per-connection randomized MAC option [CHAR LIMIT=40] -->
+    <string name="wifi_privacy_randomize_each_connection">Случайный для каждого подключения</string>
+    <!-- Label for per-network randomized MAC option [CHAR LIMIT=40] -->
+    <string name="wifi_privacy_per_network_randomized_mac">Использовать случайный MAC</string>
+    <!-- Label for device MAC option [CHAR LIMIT=40] -->
+    <string name="wifi_privacy_device_mac">Использовать MAC устройства</string>
+
+    <string name="incall_vibration_category_title">Вибрация при вызове</string>
+    <string name="incall_vibrate_on_connect_title">Вибрация при ответе</string>
+    <string name="incall_vibrate_on_connect_summary">Вибрировать при ответе на вызов</string>
+    <string name="incall_vibrate_on_disconnect_title">Вибрация при завершении</string>
+    <string name="incall_vibrate_on_disconnect_summary">Вибрировать при завершении вызова</string>
+    <string name="incall_vibrate_on_call_waiting_title">Вибрация при ожидании вызова</string>
+    <string name="incall_vibrate_on_call_waiting_summary">Вибрировать при поступлении вызова во время разговора</string>
+
+    <!-- Charging info -->
+    <string name="lockscreen_charging_info_title">Информация о зарядке</string>
+    <string name="lockscreen_charging_info_summary">Показывать статус зарядки на экране блокировки</string>
+    <string name="lockscreen_charging_info_details_title">Показывать подробную информацию</string>
+    <string name="lockscreen_charging_info_details_summary">Показывать ток, напряжение, мощность и температуру батареи во время зарядки</string>
+
+    <!-- HDR Display -->
+    <string name="hdr_display_title">HDR-дисплей</string>
+    <string name="hdr_display_summary">Включить пиковую яркость для HDR-контента. Это увеличит расход заряда батареи</string>
+
+    <!-- Sound: Other sounds: Title for the option enabling fingerprint authentication vibration. [CHAR LIMIT=50] -->
+    <string name="fingerprint_auth_vibrate_title">Вибрация при распознавании отпечатка</string>
+    <!-- One-time Hotspot Data Limit -->
+    <string name="wifi_hotspot_data_limit_title">Разовый лимит трафика</string>
+    <string name="wifi_hotspot_data_limit_summary">Точка доступа отключится при достижении указанного лимита</string>
+    <string name="wifi_hotspot_data_limit_reached_toast">Точка доступа отключена: лимит трафика исчерпан</string>
+    <string name="wifi_hotspot_data_limit_value_title">Размер лимита трафика</string>
+    <string name="wifi_hotspot_data_limit_50mb">50 МБ</string>
+    <string name="wifi_hotspot_data_limit_100mb">100 МБ</string>
+    <string name="wifi_hotspot_data_limit_200mb">200 МБ</string>
+    <string name="wifi_hotspot_data_limit_500mb">500 МБ</string>
+    <string name="wifi_hotspot_data_limit_1gb">1 ГБ</string>
+    <string name="wifi_hotspot_data_limit_2gb">2 ГБ</string>
+    <string name="wifi_hotspot_data_limit_5gb">5 ГБ</string>
+
+    <!-- Title of the setting that changes how the desktop mode app handle (the bar/pill at the top of a window) looks/behaves -->
+    <string name="desktop_mode_app_handle_style_title">Стиль панели приложения</string>
+    <!-- Option that shows the app handle as a pill -->
+    <string name="desktop_mode_app_handle_style_pill">Пилюля</string>
+    <!-- Option that hides the app handle, it can still be tapped to open its menu -->
+    <string name="desktop_mode_app_handle_style_hidden">Скрыто</string>
+    <!-- Option that shows the app handle as three dots -->
+    <string name="desktop_mode_app_handle_style_dots">Три точки</string>
+</resources>

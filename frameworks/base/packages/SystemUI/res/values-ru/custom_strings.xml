@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2025, AxionOS
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- AxDynamicBar strings [CHAR LIMIT=NONE] -->
+    <string name="ax_dynamic_bar_timer">Таймер</string>
+    <string name="ax_dynamic_bar_stopwatch">Секундомер</string>
+    <string name="ax_dynamic_bar_alarm">Будильник</string>
+    <string name="ax_dynamic_bar_flashlight">Фонарик</string>
+    <string name="ax_dynamic_bar_hotspot">Точка доступа</string>
+    <string name="ax_dynamic_bar_hotspot_active">Точка доступа активна</string>
+    <string name="ax_dynamic_bar_vpn_active">VPN активен</string>
+    <string name="ax_dynamic_bar_screen_recording">Запись экрана</string>
+    <string name="ax_dynamic_bar_now_playing">Сейчас играет</string>
+    <string name="ax_dynamic_bar_media_output">Вывод мультимедиа</string>
+    <string name="ax_dynamic_bar_sound_mode">Режим звука</string>
+    <string name="ax_dynamic_bar_silent">Без звука</string>
+    <string name="ax_dynamic_bar_vibrate">Вибрация</string>
+    <string name="ax_dynamic_bar_ring">Звонок</string>
+    <string name="ax_dynamic_bar_charging">Зарядка</string>
+    <string name="ax_dynamic_bar_wireless">Беспроводная</string>
+    <string name="ax_dynamic_bar_saver">Экономия</string>
+    <string name="ax_dynamic_bar_music">Музыка</string>
+    <string name="ax_dynamic_bar_copied">Скопировано</string>
+    <string name="ax_dynamic_bar_copied_feedback">Скопировано!</string>
+    <string name="ax_dynamic_bar_image_copied">Изображение скопировано</string>
+    <string name="ax_dynamic_bar_copy_image">Копировать изображение</string>
+    <string name="ax_dynamic_bar_clipboard_image_desc">Изображение из буфера обмена</string>
+    <string name="ax_dynamic_bar_image">Изображение</string>
+    <string name="ax_dynamic_bar_url">URL</string>
+    <string name="ax_dynamic_bar_dismiss">Закрыть</string>
+    <string name="ax_dynamic_bar_open">Открыть</string>
+    <string name="ax_dynamic_bar_stop">Остановить</string>
+    <string name="ax_dynamic_bar_stop_recording">Остановить запись</string>
+    <string name="ax_dynamic_bar_reset">Сброс</string>
+    <string name="ax_dynamic_bar_clear_all">Очистить все</string>
+    <string name="ax_dynamic_bar_show_more">Ещё</string>
+    <string name="ax_dynamic_bar_show_less">Свернуть</string>
+    <string name="ax_dynamic_bar_play">Воспроизвести</string>
+    <string name="ax_dynamic_bar_pause">Пауза</string>
+    <string name="ax_dynamic_bar_paused">На паузе</string>
+    <string name="ax_dynamic_bar_saved">Сохранено</string>
+    <string name="ax_dynamic_bar_recording">Запись</string>
+    <string name="ax_dynamic_bar_done">Готово</string>
+    <string name="ax_dynamic_bar_ringing">Звонит</string>
+    <string name="ax_dynamic_bar_running">Выполняется</string>
+    <string name="ax_dynamic_bar_on">ВКЛ.</string>
+    <string name="ax_dynamic_bar_recents">Недавние</string>
+    <string name="ax_dynamic_bar_unlocked">Разблокировано</string>
+    <string name="ax_dynamic_bar_device_unlocked">Устройство разблокировано</string>
+    <string name="ax_dynamic_bar_progress">Прогресс</string>
+    <string name="ax_dynamic_bar_casting_to">Трансляция на</string>
+    <string name="ax_dynamic_bar_camera_mic">Камера и микрофон</string>
+    <string name="ax_dynamic_bar_camera">Камера</string>
+    <string name="ax_dynamic_bar_microphone">Микрофон</string>
+    <string name="ax_dynamic_bar_camera_mic_short">Камера и микр.</string>
+    <string name="ax_dynamic_bar_hotspot_devices">Устройств: <xliff:g id="count" example="3">%d</xliff:g></string>
+    <string name="ax_dynamic_bar_wireless_charging">Беспроводная зарядка</string>
+    <string name="ax_dynamic_bar_until_full">до полной</string>
+    <string name="ax_dynamic_bar_battery_saver">Энергосбережение</string>
+    <string name="ax_dynamic_bar_incoming_call">Входящий вызов</string>
+    <string name="ax_dynamic_bar_connected">Подключено</string>
+    <string name="ax_dynamic_bar_disconnect">Отключить</string>
+    <string name="ax_dynamic_bar_no_devices">Нет устройств</string>
+    <string name="ax_dynamic_bar_one_device_connected">Подключено 1 устройство</string>
+    <string name="ax_dynamic_bar_devices_connected">Подключено устройств: <xliff:g id="count" example="3">%d</xliff:g></string>
+    <string name="ax_dynamic_bar_vpn_connected">VPN подключен</string>
+    <string name="ax_dynamic_bar_secured">Защищено</string>
+    <string name="ax_dynamic_bar_connecting">Подключение\u2026</string>
+    <string name="ax_dynamic_bar_one_device">1 устройство</string>
+    <string name="ax_dynamic_bar_bluetooth_device">Устройство Bluetooth</string>
+    <string name="ax_dynamic_bar_apps_count">Приложений: <xliff:g id="count" example="2">%d</xliff:g></string>
+    <string name="ax_dynamic_bar_just_now">Только что</string>
+    <string name="ax_dynamic_bar_mins_ago"><xliff:g id="count" example="5">%d</xliff:g> мин. назад</string>
+    <string name="ax_dynamic_bar_hours_ago"><xliff:g id="count" example="2">%d</xliff:g> ч. назад</string>
+    <string name="ax_dynamic_bar_days_ago"><xliff:g id="count" example="3">%d</xliff:g> дн. назад</string>
+    <string name="ax_dynamic_bar_weeks_hub"><xliff:g id="count" example="1">%d</xliff:g> нед. назад</string>
+    <string name="ax_dynamic_bar_weeks_ago"><xliff:g id="count" example="1">%d</xliff:g> нед. назад</string>
+    <string name="ax_dynamic_bar_resume">Возобновить</string>
+    <string name="ax_dynamic_bar_clipboard">Буфер обмена</string>
+    <string name="ax_dynamic_bar_previous">Предыдущий</string>
+    <string name="ax_dynamic_bar_next">Следующий</string>
+    <string name="ax_dynamic_bar_shuffle">Перемешать</string>
+    <string name="ax_dynamic_bar_output">Вывод</string>
+    <string name="ax_dynamic_bar_rec_short">Запись</string>
+    <string name="ax_dynamic_bar_cast_short">Трансляция</string>
+    <string name="ax_dynamic_bar_active">Активно</string>
+    <string name="ax_dynamic_bar_biometric">Биометрия</string>
+    <string name="ax_dynamic_bar_trust">Защита</string>
+    <string name="ax_dynamic_bar_alignment">Выравнивание</string>
+    <string name="ax_dynamic_bar_cam_short">Кам.</string>
+    <string name="ax_dynamic_bar_mic_short">Микр.</string>
+    <string name="ax_dynamic_bar_recent_apps">Недавние приложения</string>
+    <string name="ax_dynamic_bar_count_running">Работает: <xliff:g id="count" example="3">%d</xliff:g></string>
+    <string name="ax_dynamic_bar_sports_vs">против</string>
+    <string name="ax_dynamic_bar_sports_live">ПРЯМОЙ ЭФИР</string>
+    <string name="ax_dynamic_bar_sports_final">Окончен</string>
+    <string name="ax_dynamic_bar_sports_halftime">Перерыв</string>
+    <string name="ax_dynamic_bar_sports_upcoming">Предстоящий</string>
+
+    <!-- Title for the data disabled indicator toggle in status bar tuner. -->
+    <string name="status_bar_data_disabled_indicator">Индикатор отключения передачи данных</string>
+
+    <!-- Title for the 4G/LTE icon toggle in status bar tuner. -->
+    <string name="status_bar_show_4g_for_lte">Показывать 4G вместо LTE</string>
+
+    <string-array name="battery_options">
+        <item>Скрыто</item>
+        <item>Внутри значка</item>
+        <item>Рядом со значком</item>
+    </string-array>
+
+    <string name="quick_settings_5g_label">5G</string>
+    <string name="quick_settings_5g_editor_label">5G</string>
+    <string name="volume_ringer_mode">Режим звонка</string>
+    <string name="quick_settings_media_volume_label">Громкость мультимедиа</string>
+    <string name="quick_settings_data_switch_label">Переключатель данных</string>
+</resources>
